@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: #92bde7;
+    color: #485e74;
+    padding:0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.brand {
+    display:none;
+    margin-left: 100px;
+    transform: scale(0);
+    transition: all 300ms ease-in-out;
+    text-align: center;
+    font-family: 'Pacifico', Arial, sans-serif;
+}
+
+.brand span,
+.header-info span {
+    color: #0a4099;
+    font-family: 'Pacifico', Arial, sans-serif;
+}
+
+.header-info span{
+      
+}
+
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+    border: 4px solid black;
+    min-height: 600px;
+}
+
+.wrapper>* {
+    padding: 1em;
+}
+
+.myForm {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+    font-weight: bold;
+}
+
+.myForm input {
+    margin-bottom: 20px;
+    box-shadow: none;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 0px;
+    height: 25px;
+}
+
+.header-info {
+    background: lightblue;
+    text-align: center
+}
+
+.header-info h3,
+.company-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.event {
+    background: #f9feff;
+    min-height: 550px;
+}
+
+.event .myForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.event .myForm lable {
+    display: block;
+}
+
+.event .myForm input,
+.dropDown {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.event .myForm input,
+.event .myForm .dropDown {
+    margin-bottom: 20px;
+    box-shadow: none;
+    background-color: aliceblue;
+    border-radius: 0px;
+    border: 1px solid #0a4099;
+}
+
+.myForm .btn {
+    background-color: lightblue !important;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.myForm .btn:hover,
+.myForm .btn:focus {
+    background: #92bde7 !important;
+    color: #fff;
+    outline: 0;
+    transition: background-color 200ms ease-in-out;
+}
+
+.eventMaker {
+    display: inline-block;
+    max-height: 300px;
+    background-color: #f9feff;
+}
+
+.dropDown {
+    justify-self: center;
+    min-width: 100px;
+}
+
+.eventMaker #txtEventName {
+    width: 100%;
+    justify-self: center;
+}
+
+.eventPicker {
+    display: inline-block;
+    max-height: 300px;
+    background-color: #f9feff;
+}
+
+.ticketPurchase {
+    display: inline-block;
+    max-height: 300px;
+    background-color: #f9feff;
+}
+
+
+/*Summery Page CSS*/
+
+.sort {
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.parent {
+    width: 100%;
+    display: grid;
+}
+
+.textBox {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #0a4099;
+}
+
+
+
